@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practica checkbox</string>
+    <string name="txtUno">Numero 1</string>
+    <string name="txtDos">Numero 2</string>
+    <string name="chUno">Sumar</string>
+    <string name="chDos">Restar</string>
+    <string name="boton">Evaluar</string>
+    <string name="twUno">Resultado</string>
+</resources>

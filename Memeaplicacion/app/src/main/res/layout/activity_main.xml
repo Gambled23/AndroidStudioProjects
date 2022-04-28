@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_num2"
+        android:layout_width="323dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Dame el 2do numero"
+        android:inputType="number"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_num1" />
+
+    <TextView
+        android:id="@+id/txt_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:text="Resultado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <EditText
+        android:id="@+id/txt_num1"
+        android:layout_width="322dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint="Dame el 1er numero"
+        android:inputType="number"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="84dp"
+        android:onClick="sumarNumeros"
+        android:text="Sumar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_num2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mi app 2</string>
+    <string name="txtViewString">Estatus del alumno</string>
+    <string name="txtCal1String">Calificacion 1</string>
+    <string name="txtCal2String">Calificacion 2</string>
+    <string name="txtCal3String">Calificacion 3</string>
+    <string name="botonEvaluarString">EVALUAR</string>
+</resources>
